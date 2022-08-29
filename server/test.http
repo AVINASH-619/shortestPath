@@ -1,0 +1,11 @@
+GET http://localhost:5000/
+###
+POST http://localhost:5000/addRoute
+Content-Type: application/json
+Accept: application/json
+
+{
+    "cityStart":"Hyderabad",
+    "distance":1000,
+    "cityEnd":"Kochi"
+}
